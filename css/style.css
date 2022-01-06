@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    color: rgb(49, 49, 49);;
+    color: rgb(49, 49, 49);
+    box-sizing: border-box;
 }
 
 /* common class for reuse */
@@ -23,6 +24,14 @@
     color: rgb(49, 49, 49);  
 }
 
+.heading{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: rgb(49, 49, 49); 
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 .btn{
     display: inline-block;
     text-decoration: none;
@@ -39,9 +48,15 @@
     font-size: 30px;
 }
 
-/* about section start */
-.about-section{
+.span-color{
+    color: #F7CD2E;
+
+}
+
+/* about section start========================== */
+.section-flex{
     display: flex;
+    margin-bottom: 80px;
 }
 
 .section-heading{
@@ -64,6 +79,91 @@
 .right img{
     width: 80%;
 }
+
+/* about section end========================== */
+/* learn item start========================== */
+.learn-section{
+    margin-bottom: 100px;
+}
+.learn-items{
+    display: flex;
+}
+
+.learn-item-width{
+    width: 32%;
+}
+.learn-item-width img{
+    width: 150px;
+}
+
+.learn-subject{
+    margin-bottom: 15px;
+}
+
+.left-item{
+    background: #CAD5E2;
+    padding: 30px 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.middle-item{
+    background: #fcd9e9;
+    padding: 30px 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.right-item{
+    background: #f3e8c3;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+/* learn item end========================== */
+/* develop section start========================== */
+.develop-section{
+    margin-bottom: 100px;
+}
+
+.develop-div{
+    display: flex;
+}
+
+.develop-section img{
+    width: 80%;
+}
+
+.develop-header-1{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -60px;
+    font-size: 40px;
+}
+.develop-header-2{
+    text-align: left;
+    margin-top: -45px;
+    margin-left: -60px;
+    font-size: 40px;
+}
+
+.develop-disc{
+    margin-top: -20px;
+    margin-left: -60px;
+}
+
+.btn-1{
+    margin-left: -60px;
+    margin-top: 20px;
+}
+
+/* know section ============ */
+.know-section{
+    margin-left: 100px;
+}
+
+
+
+
+
 
 
 
