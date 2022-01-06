@@ -50,7 +50,6 @@
 
 .span-color{
     color: #F7CD2E;
-
 }
 
 /* about section start========================== */
@@ -158,6 +157,38 @@
 /* know section ============ */
 .know-section{
     margin-left: 100px;
+}
+
+/* skill section =================== */
+.skill{
+    background: linear-gradient(rgb(248, 237, 237), #ebf8e2);
+}
+.skill-1{
+    background: linear-gradient(rgb(248, 247, 237), #fcddfc);
+}
+.skill-2{
+    background: linear-gradient(rgb(248, 237, 237), #faf2c5);
+}
+
+/* footer section ================= */
+
+footer{
+    text-align: center;
+    padding:100px 0;
+    color: #CAD5E2;
+    background: rgb(0, 0, 17);
+}
+
+footer .text-white-1{
+    color:#fff;
+    margin-bottom: 10px;
+}
+footer .text-white-2{
+    color:#fff;
+}
+
+footer .span-color-1{
+    color:#FF6263;
 }
 
 
